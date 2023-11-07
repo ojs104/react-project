@@ -12,6 +12,7 @@
 2. gsap 설치 `npm i gsap`
 3. sass 설치 `npm i sass`
 4. lenis 설치 `npm i @studio-freight/lenis`
+5. react-router-dom 설치 `npm i react-router-dom`
 
 ### GSAP
 
