@@ -32,10 +32,10 @@ SEO (Search Engine Optimization) 어려움: React 앱은 초기 로딩 시에 �
 ## 설치
 
 1. react `npx create-react-app 프로젝트 이름`
-2. gsap 설치 `npm i gsap`
-3. sass 설치 `npm i sass`
-4. lenis 설치 `npm i @studio-freight/lenis`
-5. react-router-dom 설치 `npm i react-router-dom`
+2. react-router-dom 설치 `npm i react-router-dom`
+3. gsap 설치 `npm i gsap`
+4. sass 설치 `npm i sass`
+5. lenis 설치 `npm i @studio-freight/lenis`
 
 ### GSAP
 GSAP (GreenSock Animation Platform)은 웹 애니메이션을 생성하고 관리하기 위한 강력하고 유연한 JavaScript 라이브러리입니다. GSAP는 HTML, CSS 및 SVG 요소를 사용하여 웹 페이지 및 애플리케이션에서 고품질의 애니메이션을 만들 수 있도록 돕는 도구입니다.
@@ -57,7 +57,10 @@ GSAP의 주요 특징과 기능은 다음과 같습니다:
 스크롤 애니메이션: 페이지 스크롤에 반응하여 요소를 애니메이션화하는 ScrollTrigger 플러그인을 통해 스크롤 애니메이션을 쉽게 구현할 수 있습니다.
 
 커스터마이징 가능: GSAP는 트윈, 트윈맥스 및 트라이거 등의 다양한 플러그인을 통해 애니메이션을 자세하게 제어하고 커스터마이징할 수 있습니다.
+
 ### lenis
+lenis(https://lenis.studiofreight.com/) 를 이용하여 스므스 효과를 구현합니다.
+
 
 ### firebase
 Firebase는 Google에서 제공하는 클라우드 기반의 개발 플랫폼으로, 웹 및 모바일 애플리케이션을 빠르게 개발하고 배포하는 데 도움을 주는 다양한 도구와 서비스를 제공합니다. Firebase는 다음과 같은 주요 기능과 서비스를 포함하고 있습니다:
@@ -79,21 +82,21 @@ Firebase는 Google에서 제공하는 클라우드 기반의 개발 플랫폼으
 클라우드 메시징 (Cloud Messaging): Firebase 클라우드 메시징을 사용하여 모바일 앱 또는 웹 앱으로 푸시 알림을 보낼 수 있습니다.
 <details>
 <summary>설치 순서</summary>
-* npm run build
-1. firebase 홈페이지 : 프로젝트 만들기
-2. 빌드(카테고리) : 호스팅 시작하기 선택
-3. vs code 터미널에 가서 firebase-tools 설치: npm install -g firebase-tools (경로 확인!)
-4. firebase login (powershell에서 안됨..)
-5. firebase init
-6. space bar을 이용해서 Hosting 선택 하고 enter.
-7. y/N 선택시 추천 선택 (그냥 enter)
+* npm run build <br>
+1. firebase 홈페이지 : 프로젝트 만들기<br>
+2. 빌드(카테고리) : 호스팅 시작하기 선택<br>
+3. vs code 터미널에 가서 firebase-tools 설치: npm install -g firebase-tools (경로 확인!)<br>
+4. firebase login (powershell에서 안됨..)<br>
+5. firebase init<br>
+6. space bar을 이용해서 Hosting 선택 하고 enter.<br>
+7. y/N 선택 <br><br>
 
-? Are you ready to proceed? Yes 
-? Project Setup
-? Hosting Setup
-? What do you want to use as your public directory? build         
-? Configure as a single-page app (rewrite all urls to /index.html)? No     
-? Set up automatic builds and deploys with GitHub? No
+? Are you ready to proceed? Yes <br>
+? Project Setup<br>
+? Hosting Setup<br>
+? What do you want to use as your public directory? build      <br>   
+? Configure as a single-page app (rewrite all urls to /index.html)? No    <br> 
+? Set up automatic builds and deploys with GitHub? No<br>
 ? File build/index.html already exists. Overwrite? No
 ## 트러블 슈팅
 
